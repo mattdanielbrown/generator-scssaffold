@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Matt Daniel Brown",
+      "authorEmail": "developer@mattdanielbrown.com",
+      "authorUrl": "mattbrown.codes"
+    }
+  }
+}
