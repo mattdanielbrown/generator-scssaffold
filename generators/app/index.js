@@ -8,8 +8,8 @@ module.exports = class extends Generator {
     // Have Yeoman greet the user.
     this.log(
       yosay(
-        `Welcome to the sensational ${chalk.red(
-          "generator-scssaffold"
+        `Welcome to the sensational ${chalk.bold.cyanBright(
+          "Scssaffold"
         )} generator!`
       )
     );
