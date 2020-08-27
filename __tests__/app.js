@@ -11,7 +11,7 @@ describe("generator-scssaffold:app", () => {
   });
 
   it("creates files", () => {
-    // assert.file(["dummyfile.txt"]);
+    // Original test: assert.file(["dummyfile.txt"]);
     assert.file(["main.scss"]);
   });
 });
