@@ -42,7 +42,8 @@
   "dependencies": {
     "yeoman-generator": "^2.0.1",
     "chalk": "^2.1.0",
-    "yosay": "^2.0.1"
+    "yosay": "^2.0.1",
+    "@snyk/protect": "latest"
   },
   "jest": {
     "testEnvironment": "node"
@@ -80,8 +81,11 @@
   },
   "scripts": {
     "pretest": "eslint .",
-    "test": "jest"
+    "test": "jest",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": "https://github.com/mattdanielbrown/generator-scssaffold.git",
-  "license": "MIT"
+  "license": "MIT",
+  "snyk": true
 }
